@@ -1,0 +1,114 @@
+[
+    {
+        "date": "1999.02.08",
+        "title": "Act on Promotion of Information and Communications Network Utilization enacted",
+        "title_ko": "정보통신망 이용촉진 등에 관한 법률 제정",
+        "description": "First online privacy law. Laid groundwork for internet privacy protection.",
+        "description_ko": "최초 온라인 개인정보보호법. 인터넷 프라이버시 보호 기반 마련.",
+        "type": "enacted"
+    },
+    {
+        "date": "2005.02.01",
+        "title": "Credit Information Use and Protection Act major amendment",
+        "title_ko": "신용정보법 대폭 개정",
+        "description": "Strengthened financial sector personal data protection. Credit bureaus regulated.",
+        "description_ko": "금융권 개인정보보호 강화. 신용정보회사 규제 강화.",
+        "type": "amended"
+    },
+    {
+        "date": "2007.01.03",
+        "title": "Electronic Financial Transactions Act enacted",
+        "title_ko": "전자금융거래법 제정",
+        "description": "Secured electronic payments. CISO designation mandatory for financial institutions.",
+        "description_ko": "전자금융거래 보안 강화. 금융기관 CISO 지정 의무화.",
+        "type": "enacted"
+    },
+    {
+        "date": "2011.03.29",
+        "title": "Personal Information Protection Act enacted",
+        "title_ko": "개인정보보호법 제정",
+        "description": "Korea's first comprehensive privacy law enacted. Fines: up to 50M won.",
+        "description_ko": "대한민국 최초 종합 개인정보보호법 제정. 과태료: 최대 5천만원.",
+        "type": "enacted"
+    },
+    {
+        "date": "2014.01.21",
+        "title": "Card 3 scandal erupts - 104M records leaked",
+        "title_ko": "카드 3사 개인정보 유출 사태 - 1억 400만건",
+        "description": "KB, NH, Lotte card breach. Largest financial data breach in Korean history.",
+        "description_ko": "KB국민, NH농협, 롯데카드 유출. 한국 역사상 최대 금융정보 유출.",
+        "type": "enforcement"
+    },
+    {
+        "date": "2014.08.07",
+        "title": "First major amendment after Card 3 scandal",
+        "title_ko": "카드3사 사태 후 첫 대규모 개정",
+        "description": "After 104M records leaked, penalties strengthened. CEO responsibility added.",
+        "description_ko": "1억 400만건 유출 후 처벌 강화. 대표이사 책임 신설.",
+        "type": "amended"
+    },
+    {
+        "date": "2016.07.25",
+        "title": "Punitive damages system introduced",
+        "title_ko": "징벌적 손해배상제도 도입",
+        "description": "Up to 3x compensation for intentional violations.",
+        "description_ko": "고의적 위반 시 최대 3배 손해배상.",
+        "type": "amended"
+    },
+    {
+        "date": "2018.05.30",
+        "title": "First fine under current system",
+        "title_ko": "현행 체계 첫 과징금 부과",
+        "description": "Hanatour fined 345M won - first administrative fine case.",
+        "description_ko": "하나투어 3억 4,525만원 - 첫 과징금 부과 사례.",
+        "type": "enforcement"
+    },
+    {
+        "date": "2020.08.05",
+        "title": "Data 3 Act amendment",
+        "title_ko": "데이터 3법 개정",
+        "description": "PIPC established as independent agency. Pseudonymized data allowed. Network Act privacy provisions merged into PIPA.",
+        "description_ko": "개인정보보호위원회 독립기관화. 가명정보 활용 허용. 정보통신망법 개인정보 조항 개인정보보호법으로 이관.",
+        "type": "amended"
+    },
+    {
+        "date": "2021.10.01",
+        "title": "MyData service launched",
+        "title_ko": "마이데이터 서비스 시행",
+        "description": "Credit Information Act revision takes effect. Data portability rights granted.",
+        "description_ko": "신용정보법 개정 시행. 개인신용정보 전송요구권 도입.",
+        "type": "enacted"
+    },
+    {
+        "date": "2023.09.15",
+        "title": "Major penalty enhancement",
+        "title_ko": "과징금 대폭 강화",
+        "description": "Fines raised to 3% of TOTAL revenue (not just related). Aligned with GDPR.",
+        "description_ko": "과징금 전체 매출액의 3%로 상향 (관련 매출액 → 전체). GDPR 수준으로.",
+        "type": "amended"
+    },
+    {
+        "date": "2024.05.29",
+        "title": "Golfzon fine - First under revised law",
+        "title_ko": "골프존 과징금 - 개정법 첫 적용",
+        "description": "7.5B won fine - first major case under 2023 revision.",
+        "description_ko": "75억원 과징금 - 2023년 개정법 첫 대형 사례.",
+        "type": "enforcement"
+    },
+    {
+        "date": "2025.05.01",
+        "title": "Electronic Financial Transactions Act strengthened",
+        "title_ko": "전자금융거래법 개정 강화",
+        "description": "Enhanced penalties for major security incidents. CISO accountability increased.",
+        "description_ko": "중대 보안사고 시 처벌 강화. CISO 책임 확대.",
+        "type": "amended"
+    },
+    {
+        "date": "2025.11.06",
+        "title": "SK Telecom - Record fine",
+        "title_ko": "SK텔레콤 - 역대 최대 과징금",
+        "description": "134.8B won - largest fine ever in Korea.",
+        "description_ko": "1,348억원 - 국내 역대 최대 과징금.",
+        "type": "enforcement"
+    }
+]

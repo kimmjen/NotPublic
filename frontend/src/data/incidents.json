@@ -1,0 +1,1593 @@
+[
+    {
+        "id": 1,
+        "company_name": "Coupang",
+        "company_name_ko": "쿠팡",
+        "incident_date": "2025.11.30",
+        "severity": "critical",
+        "leaked_items": [
+            "Name",
+            "Address",
+            "Phone",
+            "Email",
+            "Door Lock Password",
+            "Order History"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "주소",
+            "전화번호",
+            "이메일",
+            "도어락 비밀번호",
+            "주문내역"
+        ],
+        "description": "Former Chinese employee exploited authentication key for 5 months to access 33.7M user accounts. Door lock passwords exposed.",
+        "description_ko": "전직 중국인 직원이 5개월간 인증키를 악용. 3,370만 계정 접근, 도어락 비밀번호까지 유출.",
+        "leaked_count": 33700000,
+        "original_url": "https://www.koreaherald.com",
+        "fine_amount": "Up to ₩1T+ (under review)",
+        "fine_amount_ko": "최대 1조원 이상 (검토중)",
+        "timeline": [
+            {
+                "date": "2025.06.24",
+                "title": "Breach started",
+                "title_ko": "유출 시작"
+            },
+            {
+                "date": "2025.11.30",
+                "title": "Public disclosure",
+                "title_ko": "공식 발표"
+            },
+            {
+                "date": "2025.12.02",
+                "title": "National Assembly hearing",
+                "title_ko": "국회 청문회"
+            }
+        ],
+        "related_links": [
+            {
+                "type": "news",
+                "title": "Coupang breach: 33.7M users affected",
+                "title_ko": "쿠팡 3,370만명 개인정보 유출",
+                "url": "https://www.hani.co.kr/arti/economy/it/1169712.html",
+                "source": "한겨레"
+            },
+            {
+                "type": "video",
+                "title": "[KBS] 쿠팡 3,370만 명 정보 유출, 5개월 지나서야 인지",
+                "title_ko": "[KBS] 쿠팡 3,370만 명 정보 유출, 5개월 지나서야 인지",
+                "url": "https://www.youtube.com/watch?v=dM5C8NdN5Ug",
+                "source": "KBS뉴스"
+            },
+            {
+                "type": "video",
+                "title": "[MBC] 쿠팡 고객 대부분 털렸다",
+                "title_ko": "[MBC] 쿠팡 고객 대부분 털렸다",
+                "url": "https://www.youtube.com/watch?v=8xKw-3qnM6s",
+                "source": "MBC뉴스"
+            },
+            {
+                "type": "video",
+                "title": "[JTBC] 지금까지 유출된 정보는? 쿠팡 개인정보 유출 사태",
+                "title_ko": "[JTBC] 지금까지 유출된 정보는? 쿠팡 개인정보 유출 사태",
+                "url": "https://www.youtube.com/watch?v=cFHnKdXPNUQ",
+                "source": "JTBC뉴스"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "company_name": "SK Telecom",
+        "company_name_ko": "SK텔레콤",
+        "incident_date": "2025.04.22",
+        "severity": "critical",
+        "leaked_items": [
+            "IMSI",
+            "IMEI",
+            "USIM Key",
+            "Phone Number"
+        ],
+        "leaked_items_ko": [
+            "IMSI",
+            "IMEI",
+            "USIM 인증키",
+            "전화번호"
+        ],
+        "description": "BPFDoor malware attack on HSS servers. 26.95M subscribers. Attack started in 2021. Record ₩134.8B fine.",
+        "description_ko": "BPFDoor 악성코드 공격. 2,695만 가입자. 2021년부터 공격. 역대 최대 1,348억 과징금.",
+        "leaked_count": 26950000,
+        "original_url": "https://www.koreaherald.com",
+        "fine_amount": "₩134.8B",
+        "fine_amount_ko": "1,348억원",
+        "timeline": [
+            {
+                "date": "2021.08",
+                "title": "Attack started (4 years)",
+                "title_ko": "공격 시작 (4년간)"
+            },
+            {
+                "date": "2025.04.18",
+                "title": "Breach discovered",
+                "title_ko": "침해 발견"
+            },
+            {
+                "date": "2025.11.06",
+                "title": "Record fine imposed",
+                "title_ko": "역대 최대 과징금"
+            }
+        ],
+        "related_links": [
+            {
+                "type": "video",
+                "title": "[KBS] SKT 해킹사태 진짜 문제는 '유심 복제'",
+                "title_ko": "[KBS] SKT 해킹사태 진짜 문제는 '유심 복제'",
+                "url": "https://www.youtube.com/watch?v=9xrNALj-J3Q",
+                "source": "KBS뉴스"
+            },
+            {
+                "type": "video",
+                "title": "[비디오머그] SK텔레콤 유심 정보 유출 총정리",
+                "title_ko": "[비디오머그] SK텔레콤 유심 정보 유출 총정리",
+                "url": "https://www.youtube.com/watch?v=ZpNmlHZn9bs",
+                "source": "비디오머그"
+            },
+            {
+                "type": "news",
+                "title": "SK Telecom breach: 26.95M affected",
+                "title_ko": "SK텔레콤 2,695만 가입자 정보 유출",
+                "url": "https://www.donga.com/news/Economy/article/all/20250425/131025889/1",
+                "source": "동아일보"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "company_name": "Lotte Card",
+        "company_name_ko": "롯데카드",
+        "incident_date": "2025.09.18",
+        "severity": "critical",
+        "leaked_items": [
+            "Card Number",
+            "CVC",
+            "Expiry",
+            "PIN",
+            "RRN"
+        ],
+        "leaked_items_ko": [
+            "카드번호",
+            "CVC",
+            "유효기간",
+            "비밀번호",
+            "주민번호"
+        ],
+        "description": "8-year-old Oracle WebLogic vulnerability (CVE-2017-10271) exploited. 200GB+ leaked. 2.97M customers.",
+        "description_ko": "8년간 방치된 오라클 취약점 악용. 200GB 이상 유출. 297만 고객 피해.",
+        "leaked_count": 2970000,
+        "original_url": "https://www.koreaherald.com",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [
+            {
+                "date": "2025.08.14",
+                "title": "Hacking began",
+                "title_ko": "해킹 시작"
+            },
+            {
+                "date": "2025.09.18",
+                "title": "Public disclosure",
+                "title_ko": "공식 발표"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 4,
+        "company_name": "Kakao Pay",
+        "company_name_ko": "카카오페이",
+        "incident_date": "2024.09.20",
+        "severity": "critical",
+        "leaked_items": [
+            "Phone",
+            "Email",
+            "Balance",
+            "Credit Score"
+        ],
+        "leaked_items_ko": [
+            "전화번호",
+            "이메일",
+            "잔액",
+            "신용점수"
+        ],
+        "description": "40M+ users' data shared with Alipay without consent (2018-2024). ₩5.97B fine + ₩15B expected.",
+        "description_ko": "4,000만 명 정보 알리페이 무단 제공 (2018-2024). 59억 과징금 + 150억 추가 예상.",
+        "leaked_count": 40000000,
+        "original_url": "https://www.hani.co.kr",
+        "fine_amount": "₩5.97B+",
+        "fine_amount_ko": "59억원+",
+        "timeline": [
+            {
+                "date": "2018",
+                "title": "Unauthorized sharing began",
+                "title_ko": "무단 제공 시작"
+            },
+            {
+                "date": "2024.09.20",
+                "title": "Revealed",
+                "title_ko": "발각"
+            },
+            {
+                "date": "2025.01.23",
+                "title": "Fine imposed",
+                "title_ko": "과징금 부과"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 5,
+        "company_name": "KakaoTalk",
+        "company_name_ko": "카카오톡",
+        "incident_date": "2024.06.15",
+        "severity": "critical",
+        "leaked_items": [
+            "Name",
+            "Phone",
+            "Friend List",
+            "Profile"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "전화번호",
+            "친구목록",
+            "프로필"
+        ],
+        "description": "Open chat vulnerability exploited. Hacking tools extracted 5 types of info. ₩15.14B fine.",
+        "description_ko": "오픈채팅 취약점 악용. 해킹 툴로 5종 정보 유출. 151억 과징금.",
+        "leaked_count": 0,
+        "original_url": "https://www.chosun.com",
+        "fine_amount": "₩15.14B",
+        "fine_amount_ko": "151억원",
+        "timeline": [
+            {
+                "date": "2024.06",
+                "title": "Vulnerability exploited",
+                "title_ko": "취약점 악용"
+            },
+            {
+                "date": "2024.12",
+                "title": "Fine imposed",
+                "title_ko": "과징금 부과"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 6,
+        "company_name": "Netmarble",
+        "company_name_ko": "넷마블",
+        "incident_date": "2025.11.22",
+        "severity": "critical",
+        "leaked_items": [
+            "Name",
+            "Birth Date",
+            "Password",
+            "RRN",
+            "Email"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "생년월일",
+            "비밀번호",
+            "주민번호",
+            "이메일"
+        ],
+        "description": "PC game portal hacked. 6.11M users. Additional 8,000 RRN records. Late KISA report (72h).",
+        "description_ko": "PC 게임 포털 해킹. 611만 명. 주민번호 8천건 추가. KISA 72시간 지연 신고.",
+        "leaked_count": 6110000,
+        "original_url": "https://www.koreaherald.com",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [
+            {
+                "date": "2025.11.22",
+                "title": "Hacking detected",
+                "title_ko": "해킹 인지"
+            },
+            {
+                "date": "2025.12.03",
+                "title": "Additional RRN leak",
+                "title_ko": "주민번호 추가 유출"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 7,
+        "company_name": "Incruit",
+        "company_name_ko": "인크루트",
+        "incident_date": "2025.01.15",
+        "severity": "critical",
+        "leaked_items": [
+            "Name",
+            "Phone",
+            "Resume",
+            "Photo",
+            "Certificates"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "전화번호",
+            "이력서",
+            "사진",
+            "자격증"
+        ],
+        "description": "Job portal hacked. 7.3M users' entire profiles including resumes. 18 types of data.",
+        "description_ko": "구직 포털 해킹. 730만 명 전체 프로필 유출. 이력서 포함 18종 정보.",
+        "leaked_count": 7300000,
+        "original_url": "https://www.goover.ai",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [
+            {
+                "date": "2025.01",
+                "title": "Hacking attack",
+                "title_ko": "해킹 공격"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 8,
+        "company_name": "GS Retail",
+        "company_name_ko": "GS리테일",
+        "incident_date": "2025.01.10",
+        "severity": "warning",
+        "leaked_items": [
+            "Personal Info",
+            "Order History"
+        ],
+        "leaked_items_ko": [
+            "개인정보",
+            "주문내역"
+        ],
+        "description": "Convenience store website hacked.",
+        "description_ko": "편의점 홈페이지 해킹.",
+        "leaked_count": 0,
+        "original_url": "https://www.catchsecu.com",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 9,
+        "company_name": "Upbit",
+        "company_name_ko": "업비트",
+        "incident_date": "2024.11.20",
+        "severity": "critical",
+        "leaked_items": [
+            "Cryptocurrency"
+        ],
+        "leaked_items_ko": [
+            "암호화폐"
+        ],
+        "description": "North Korean Lazarus Group. $50M cryptocurrency theft (₩445B).",
+        "description_ko": "북한 라자루스 그룹. 445억원 암호화폐 탈취.",
+        "leaked_count": 0,
+        "original_url": "https://www.chosun.com",
+        "fine_amount": "N/A (theft)",
+        "fine_amount_ko": "해당없음 (도난)",
+        "timeline": [
+            {
+                "date": "2024.11",
+                "title": "Lazarus attack",
+                "title_ko": "라자루스 공격"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 10,
+        "company_name": "Korea Judiciary",
+        "company_name_ko": "대한민국 사법부",
+        "incident_date": "2024.05.10",
+        "severity": "critical",
+        "leaked_items": [
+            "Personal Info",
+            "Financial Info",
+            "Court Records"
+        ],
+        "leaked_items_ko": [
+            "개인정보",
+            "금융정보",
+            "법원기록"
+        ],
+        "description": "North Korean hackers breached court network (2021-2023). Large-scale citizen data leak.",
+        "description_ko": "북한 해커 법원 전산망 침해 (2021-2023). 대규모 국민 정보 유출.",
+        "leaked_count": 0,
+        "original_url": "https://www.straitstimes.com",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [
+            {
+                "date": "2021.01",
+                "title": "Breach started",
+                "title_ko": "침해 시작"
+            },
+            {
+                "date": "2023.02",
+                "title": "Breach ended",
+                "title_ko": "침해 종료"
+            },
+            {
+                "date": "2024.05",
+                "title": "Announced",
+                "title_ko": "발표"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 11,
+        "company_name": "LG Uplus",
+        "company_name_ko": "LG유플러스",
+        "incident_date": "2023.01.10",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "Birth Date",
+            "Phone",
+            "Address",
+            "Email",
+            "USIM ID"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "생년월일",
+            "전화번호",
+            "주소",
+            "이메일",
+            "USIM 고유번호"
+        ],
+        "description": "CAS system breach due to outdated software. Webshells from 2009 undetected. 297K records. ₩6.8B fine.",
+        "description_ko": "노후 소프트웨어로 CAS 시스템 침해. 2009년 웹셸 미탐지. 29만 7천건. 68억 과징금.",
+        "leaked_count": 297117,
+        "original_url": "https://www.byline.network",
+        "fine_amount": "₩6.8B",
+        "fine_amount_ko": "68억원",
+        "timeline": [
+            {
+                "date": "2018.06",
+                "title": "Actual breach",
+                "title_ko": "실제 침해"
+            },
+            {
+                "date": "2023.01.10",
+                "title": "Discovered",
+                "title_ko": "발견"
+            },
+            {
+                "date": "2023.05",
+                "title": "₩6.8B fine",
+                "title_ko": "68억 과징금"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 12,
+        "company_name": "Golfzon",
+        "company_name_ko": "골프존",
+        "incident_date": "2023.11.23",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "Phone",
+            "Email",
+            "RRN (Partial)",
+            "Bank Account"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "전화번호",
+            "이메일",
+            "주민번호(일부)",
+            "은행계좌"
+        ],
+        "description": "BlackSuit ransomware attack. 2.21M users. Data leaked on dark web. ₩7.5B fine.",
+        "description_ko": "BlackSuit 랜섬웨어. 221만 명. 다크웹 유출. 75억 과징금.",
+        "leaked_count": 2210000,
+        "original_url": "https://www.koreatimes.co.kr",
+        "fine_amount": "₩7.5B",
+        "fine_amount_ko": "75억원",
+        "timeline": [
+            {
+                "date": "2023.11.23",
+                "title": "Ransomware attack",
+                "title_ko": "랜섬웨어 공격"
+            },
+            {
+                "date": "2024.05",
+                "title": "₩7.5B fine",
+                "title_ko": "75억 과징금"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 13,
+        "company_name": "Interpark (2023)",
+        "company_name_ko": "인터파크 (2023)",
+        "incident_date": "2023.06.15",
+        "severity": "warning",
+        "leaked_items": [
+            "Account Info",
+            "Personal Data"
+        ],
+        "leaked_items_ko": [
+            "계정정보",
+            "개인정보"
+        ],
+        "description": "Credential stuffing attack. 780K records. Lack of detection. ₩1.03B fine.",
+        "description_ko": "크리덴셜 스터핑. 78만 건. 탐지 미비. 10억 과징금.",
+        "leaked_count": 780000,
+        "original_url": "https://www.chosun.com",
+        "fine_amount": "₩1.03B",
+        "fine_amount_ko": "10억원",
+        "timeline": [
+            {
+                "date": "2023.06",
+                "title": "Credential stuffing",
+                "title_ko": "크리덴셜 스터핑"
+            },
+            {
+                "date": "2023.07",
+                "title": "₩1.03B fine",
+                "title_ko": "10억 과징금"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 14,
+        "company_name": "Yanolja",
+        "company_name_ko": "야놀자",
+        "incident_date": "2021.09.15",
+        "severity": "info",
+        "leaked_items": [
+            "Name",
+            "Phone",
+            "Booking History"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "전화번호",
+            "예약내역"
+        ],
+        "description": "Cloud storage misconfiguration. 52K member records exposed.",
+        "description_ko": "클라우드 저장소 설정 오류. 5.2만 건 노출.",
+        "leaked_count": 52132,
+        "original_url": "https://www.chosun.com",
+        "fine_amount": "₩56.9M",
+        "fine_amount_ko": "5,690만원",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 15,
+        "company_name": "Hanatour",
+        "company_name_ko": "하나투어",
+        "incident_date": "2017.09.15",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "RRN",
+            "Phone",
+            "Address",
+            "Email"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "주민번호",
+            "전화번호",
+            "주소",
+            "이메일"
+        ],
+        "description": "Ransomware attack on Korea's largest travel agency. 1M+ customer records. Bitcoin ransom demanded.",
+        "description_ko": "국내 최대 여행사 랜섬웨어 공격. 100만 고객 정보. 비트코인 몸값 요구.",
+        "leaked_count": 1000000,
+        "original_url": "https://www.corbado.com",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [
+            {
+                "date": "2017.09",
+                "title": "Ransomware attack",
+                "title_ko": "랜섬웨어 공격"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 16,
+        "company_name": "Interpark (2016)",
+        "company_name_ko": "인터파크 (2016)",
+        "incident_date": "2016.05.20",
+        "severity": "critical",
+        "leaked_items": [
+            "ID",
+            "Password",
+            "Phone",
+            "Address",
+            "Email"
+        ],
+        "leaked_items_ko": [
+            "아이디",
+            "비밀번호",
+            "전화번호",
+            "주소",
+            "이메일"
+        ],
+        "description": "North Korean hackers impersonated staff's brother. 10.3M customers. ₩4.5B fine (record at the time). 3B won Bitcoin ransom demanded.",
+        "description_ko": "북한 해커 직원 가족 사칭. 1,030만 고객. 45억 과징금 (당시 최대). 30억원 비트코인 몸값 요구.",
+        "leaked_count": 10300000,
+        "original_url": "https://www.koreanlii.or.kr",
+        "fine_amount": "₩4.5B",
+        "fine_amount_ko": "45억원",
+        "timeline": [
+            {
+                "date": "2016.05",
+                "title": "North Korean hacking",
+                "title_ko": "북한 해킹"
+            },
+            {
+                "date": "2016.12",
+                "title": "Record ₩4.5B fine",
+                "title_ko": "역대 최대 45억 과징금"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 17,
+        "company_name": "Card Companies (KB, Lotte, NH)",
+        "company_name_ko": "카드3사 (KB국민·롯데·농협)",
+        "incident_date": "2014.01.08",
+        "severity": "critical",
+        "leaked_items": [
+            "Name",
+            "RRN",
+            "Phone",
+            "Address",
+            "Salary",
+            "Credit Score",
+            "Credit Limit"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "주민번호",
+            "전화번호",
+            "주소",
+            "연봉",
+            "신용등급",
+            "신용한도"
+        ],
+        "description": "Insider theft. KCB employee used USB to steal 104M records over 14 months. Court ruled ₩100K compensation per person. Criminal sentenced to 3 years.",
+        "description_ko": "내부자 도난. KCB 직원 USB로 14개월간 1억 400만 건 탈취. 법원 1인당 10만원 배상 판결. 범인 징역 3년.",
+        "leaked_count": 104000000,
+        "original_url": "https://www.joongang.co.kr",
+        "fine_amount": "₩100K per person + 3yr prison",
+        "fine_amount_ko": "1인당 10만원 배상 + 징역 3년",
+        "timeline": [
+            {
+                "date": "2012.10",
+                "title": "Theft started",
+                "title_ko": "도난 시작"
+            },
+            {
+                "date": "2013.12",
+                "title": "Theft ended",
+                "title_ko": "도난 종료"
+            },
+            {
+                "date": "2014.01.08",
+                "title": "Public disclosure",
+                "title_ko": "사실 공개"
+            },
+            {
+                "date": "2014.02",
+                "title": "3-month suspension",
+                "title_ko": "3개월 영업정지"
+            },
+            {
+                "date": "2016.10",
+                "title": "Court: ₩100K per person",
+                "title_ko": "법원: 1인당 10만원 배상"
+            },
+            {
+                "date": "2019.06",
+                "title": "Final ruling confirmed",
+                "title_ko": "최종 판결 확정"
+            }
+        ],
+        "related_links": [
+            {
+                "type": "video",
+                "title": "[JTBC] 카드사 고객정보 1억 건 유출...사상 최대 규모",
+                "title_ko": "[JTBC] 카드사 고객정보 1억 건 유출...사상 최대 규모",
+                "url": "https://www.youtube.com/watch?v=bVqp6BmV_jg",
+                "source": "JTBC뉴스"
+            },
+            {
+                "type": "video",
+                "title": "[MBC PD수첩] 카드 3사 개인정보 유출, 숨겨진 진실",
+                "title_ko": "[MBC PD수첩] 카드 3사 개인정보 유출, 숨겨진 진실",
+                "url": "https://www.youtube.com/watch?v=8EPrIWrU1rI",
+                "source": "MBC PD수첩"
+            },
+            {
+                "type": "news",
+                "title": "Card 3 ruling: ₩100K compensation per person",
+                "title_ko": "카드3사 판결: 1인당 10만원 배상",
+                "url": "https://www.joongang.co.kr/article/13507549",
+                "source": "중앙일보"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "company_name": "KT (2012)",
+        "company_name_ko": "KT (2012)",
+        "incident_date": "2012.07.29",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "RRN",
+            "Phone",
+            "Address",
+            "Plan Info"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "주민번호",
+            "전화번호",
+            "주소",
+            "요금제"
+        ],
+        "description": "Hacking exposed 8.7M mobile subscribers' data. Supreme Court ruled no compensation.",
+        "description_ko": "해킹으로 870만 휴대폰 가입자 유출. 대법원 배상 책임 없음 판결.",
+        "leaked_count": 8700000,
+        "original_url": "https://www.boannews.com",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [
+            {
+                "date": "2012.07",
+                "title": "Hacking attack",
+                "title_ko": "해킹 공격"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 19,
+        "company_name": "Nexon (MapleStory)",
+        "company_name_ko": "넥슨 (메이플스토리)",
+        "incident_date": "2011.11.18",
+        "severity": "warning",
+        "leaked_items": [
+            "ID",
+            "Password (encrypted)",
+            "RRN (encrypted)"
+        ],
+        "leaked_items_ko": [
+            "아이디",
+            "비밀번호(암호화)",
+            "주민번호(암호화)"
+        ],
+        "description": "MapleStory hacked. 13M users affected. No charges filed - prosecution said prevention standards unclear.",
+        "description_ko": "메이플스토리 해킹. 1,300만 명. 검찰 무혐의 - 예방 기준 모호.",
+        "leaked_count": 13000000,
+        "original_url": "https://www.kmib.co.kr",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [
+            {
+                "date": "2011.11.18",
+                "title": "Hacking attack",
+                "title_ko": "해킹 공격"
+            },
+            {
+                "date": "2012",
+                "title": "No charges",
+                "title_ko": "무혐의"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 20,
+        "company_name": "Nate/Cyworld (SK Comm)",
+        "company_name_ko": "네이트/싸이월드 (SK커뮤니케이션즈)",
+        "incident_date": "2011.07.26",
+        "severity": "critical",
+        "leaked_items": [
+            "ID",
+            "Password",
+            "RRN",
+            "Name",
+            "Birth Date",
+            "Email",
+            "Phone",
+            "Address"
+        ],
+        "leaked_items_ko": [
+            "아이디",
+            "비밀번호",
+            "주민번호",
+            "이름",
+            "생년월일",
+            "이메일",
+            "전화번호",
+            "주소"
+        ],
+        "description": "China-based hacking via ALZip update vulnerability. 35M users - largest in Korea at the time. Supreme Court ruled no compensation.",
+        "description_ko": "중국 IP 통한 알집 업데이트 취약점 공격. 3,500만 명 - 당시 국내 최대. 대법원 배상 책임 없음 판결.",
+        "leaked_count": 35000000,
+        "original_url": "https://www.hani.co.kr",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [
+            {
+                "date": "2011.07.26",
+                "title": "Largest breach at the time",
+                "title_ko": "당시 최대 규모 해킹"
+            },
+            {
+                "date": "2015",
+                "title": "Supreme Court: No compensation",
+                "title_ko": "대법원: 배상 책임 없음"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 21,
+        "company_name": "Hanwha Hotels",
+        "company_name_ko": "한화호텔앤드리조트",
+        "incident_date": "2024.03.15",
+        "severity": "info",
+        "leaked_items": [
+            "Reservation Info"
+        ],
+        "leaked_items_ko": [
+            "예약정보"
+        ],
+        "description": "Booking system bug exposed 1,818 reservations. ₩185M fine.",
+        "description_ko": "예약 시스템 버그. 1,818건 노출. 1.85억 과징금.",
+        "leaked_count": 1818,
+        "original_url": "https://www.catchsecu.com",
+        "fine_amount": "₩185M",
+        "fine_amount_ko": "1억 8,531만원",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 22,
+        "company_name": "Samsung Biologics",
+        "company_name_ko": "삼성바이오로직스",
+        "incident_date": "2025.11.15",
+        "severity": "warning",
+        "leaked_items": [
+            "Employee Info"
+        ],
+        "leaked_items_ko": [
+            "임직원 정보"
+        ],
+        "description": "5,000+ employee data exposed via internal shared folder.",
+        "description_ko": "사내 공용폴더 통해 5천여 명 임직원 정보 노출.",
+        "leaked_count": 5000,
+        "original_url": "https://www.cheongchul.com",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 23,
+        "company_name": "YES24",
+        "company_name_ko": "예스24",
+        "incident_date": "2025.06.10",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "Birth Date",
+            "Email",
+            "Phone"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "생년월일",
+            "이메일",
+            "전화번호"
+        ],
+        "description": "Online bookstore breach. 120,000 customer records.",
+        "description_ko": "온라인 서점 유출. 12만 고객.",
+        "leaked_count": 120000,
+        "original_url": "https://www.corbado.com",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 24,
+        "company_name": "Albamon",
+        "company_name_ko": "알바몬",
+        "incident_date": "2025.04.20",
+        "severity": "warning",
+        "leaked_items": [
+            "Personal Info",
+            "Resume"
+        ],
+        "leaked_items_ko": [
+            "개인정보",
+            "이력서"
+        ],
+        "description": "Part-time job platform data breach.",
+        "description_ko": "아르바이트 플랫폼 개인정보 유출.",
+        "leaked_count": 0,
+        "original_url": "https://www.namu.wiki",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 25,
+        "company_name": "KT (2025)",
+        "company_name_ko": "KT (2025)",
+        "incident_date": "2025.09.10",
+        "severity": "warning",
+        "leaked_items": [
+            "Personal Info",
+            "Payment Info",
+            "IMSI"
+        ],
+        "leaked_items_ko": [
+            "개인정보",
+            "결제정보",
+            "IMSI"
+        ],
+        "description": "Fake base stations (IMSI Catcher) intercepted payments. ₩240M damages.",
+        "description_ko": "가짜 기지국 통한 결제 탈취. 2.4억 피해.",
+        "leaked_count": 362,
+        "original_url": "https://www.koreaherald.com",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 26,
+        "company_name": "GS Shop",
+        "company_name_ko": "GS샵",
+        "incident_date": "2025.02.13",
+        "severity": "critical",
+        "leaked_items": [
+            "Name",
+            "Gender",
+            "Birth Date",
+            "Phone",
+            "Address",
+            "Email",
+            "Marital Status",
+            "Anniversary",
+            "Personal Customs Code"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "성별",
+            "생년월일",
+            "전화번호",
+            "주소",
+            "이메일",
+            "결혼여부",
+            "결혼기념일",
+            "개인통관고유부호"
+        ],
+        "description": "Credential stuffing attack (8 months). 1.58M records. 10 types of data leaked. PIPC investigation ongoing.",
+        "description_ko": "크리덴셜 스터핑 공격 (8개월간). 158만 건, 10종 정보 유출. 개인정보보호위 조사 중.",
+        "leaked_count": 1580000,
+        "original_url": "https://www.mk.co.kr",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [
+            {
+                "date": "2024.06.21",
+                "title": "Attack started",
+                "title_ko": "공격 시작"
+            },
+            {
+                "date": "2025.02.13",
+                "title": "Attack discovered",
+                "title_ko": "공격 발견"
+            },
+            {
+                "date": "2025.02.18",
+                "title": "PIPC investigation started",
+                "title_ko": "개인정보보호위 조사 착수"
+            }
+        ],
+        "related_links": [
+            {
+                "type": "video",
+                "title": "[MBC] 편의점 이어 홈쇼핑도 털렸다…GS샵 158만건 유출",
+                "title_ko": "[MBC] 편의점 이어 홈쇼핑도 털렸다…GS샵 158만건 유출",
+                "url": "https://www.youtube.com/watch?v=lK9nDxMqMeE",
+                "source": "MBC뉴스"
+            },
+            {
+                "type": "video",
+                "title": "[JTBC] 주소에 통관번호까지…GS리테일, 158만명 정보 유출",
+                "title_ko": "[JTBC] 주소에 통관번호까지…GS리테일, 158만명 정보 유출",
+                "url": "https://www.youtube.com/watch?v=8H7nQ-xQ_js",
+                "source": "JTBC뉴스룸"
+            },
+            {
+                "type": "news",
+                "title": "GS Retail credential stuffing - 10 types of data",
+                "title_ko": "GS리테일 크리덴셜 스터핑 - 10종 정보 유출",
+                "url": "https://www.mk.co.kr/news/business/10956789",
+                "source": "매일경제"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "company_name": "Olive Young",
+        "company_name_ko": "올리브영",
+        "incident_date": "2025.03.12",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "Phone",
+            "Address",
+            "Profile Photo",
+            "Nickname",
+            "Skin Type",
+            "Skin Concerns"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "전화번호",
+            "주소",
+            "프로필 사진",
+            "닉네임",
+            "피부 타입",
+            "피부 고민"
+        ],
+        "description": "Credential stuffing attack (5 hours). 4,900 accounts compromised. Lifestyle data including skin type leaked. CJ Group.",
+        "description_ko": "크리덴셜 스터핑 공격 (5시간). 4,900계정 탈취. 피부타입 등 라이프스타일 정보 유출. CJ그룹.",
+        "leaked_count": 4900,
+        "original_url": "https://www.economist.co.kr",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [
+            {
+                "date": "2025.03.11 22:09",
+                "title": "Attack started",
+                "title_ko": "공격 시작"
+            },
+            {
+                "date": "2025.03.12 03:54",
+                "title": "Attack ended (5 hours)",
+                "title_ko": "공격 종료 (5시간)"
+            },
+            {
+                "date": "2025.03.12",
+                "title": "Account lockdown initiated",
+                "title_ko": "계정 잠금 처리"
+            }
+        ],
+        "related_links": [
+            {
+                "type": "news",
+                "title": "CJ Olive Young credential stuffing - 4,900 accounts",
+                "title_ko": "CJ올리브영 크리덴셜 스터핑 - 4,900계정",
+                "url": "https://www.economist.co.kr",
+                "source": "이코노미스트"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "company_name": "LG Uplus (2025)",
+        "company_name_ko": "LG유플러스 (2025)",
+        "incident_date": "2025.10.15",
+        "severity": "warning",
+        "leaked_items": [
+            "Personal Info",
+            "Subscriber Info"
+        ],
+        "leaked_items_ko": [
+            "개인정보",
+            "가입자정보"
+        ],
+        "description": "Hacking incident reported to KISA. Under investigation.",
+        "description_ko": "해킹 사고로 KISA에 신고. 조사 중.",
+        "leaked_count": 0,
+        "original_url": "https://www.catchsecu.com",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 29,
+        "company_name": "SC First Bank",
+        "company_name_ko": "SC제일은행",
+        "incident_date": "2013.12.11",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "RRN",
+            "Phone",
+            "Workplace",
+            "Credit Info"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "주민번호",
+            "전화번호",
+            "직장명",
+            "신용정보"
+        ],
+        "description": "IT center contractor stole 103K records via USB (2011-2012). Sold at 50-500 won per record. 12 people indicted, 5 arrested.",
+        "description_ko": "IT센터 외주직원 USB로 10만 3천건 탈취 (2011-2012). 건당 50-500원에 거래. 12명 기소, 5명 구속.",
+        "leaked_count": 103000,
+        "original_url": "https://www.boannews.com",
+        "fine_amount": "12 indicted, 5 arrested",
+        "fine_amount_ko": "12명 기소, 5명 구속",
+        "timeline": [
+            {
+                "date": "2011.11",
+                "title": "Theft started",
+                "title_ko": "도난 시작"
+            },
+            {
+                "date": "2012.02",
+                "title": "Theft ended",
+                "title_ko": "도난 종료"
+            },
+            {
+                "date": "2013.12.11",
+                "title": "Prosecution announcement",
+                "title_ko": "검찰 발표"
+            }
+        ],
+        "related_links": [
+            {
+                "type": "news",
+                "title": "SC제일시티 13만 고객정보 유출",
+                "title_ko": "SC제일시티 13만 고객정보 유출",
+                "url": "https://www.boannews.com",
+                "source": "보안뉴스"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "company_name": "Citibank Korea",
+        "company_name_ko": "한국씨티은행",
+        "incident_date": "2013.12.11",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "Phone",
+            "Loan Amount",
+            "Maturity Date"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "전화번호",
+            "대출액",
+            "만기일"
+        ],
+        "description": "Loan officer printed and sold 34K customer records to loan brokers in April 2013.",
+        "description_ko": "대출 담당 직원이 2013년 4월 3만 4천건 출력해 대출모집인에게 전달.",
+        "leaked_count": 34000,
+        "original_url": "https://www.hani.co.kr",
+        "fine_amount": "Included in 12 indictments",
+        "fine_amount_ko": "12명 기소에 포함",
+        "timeline": [
+            {
+                "date": "2013.04",
+                "title": "Loan officer printed records",
+                "title_ko": "직원 문서 출력"
+            },
+            {
+                "date": "2013.12.11",
+                "title": "Prosecution announcement",
+                "title_ko": "검찰 발표"
+            }
+        ],
+        "related_links": [
+            {
+                "type": "news",
+                "title": "SC제일시티 13만 고객정보 유출",
+                "title_ko": "SC제일시티 13만 고객정보 유출",
+                "url": "https://www.hani.co.kr",
+                "source": "한겨레"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "company_name": "Hanwha General Insurance",
+        "company_name_ko": "한화손해보험",
+        "incident_date": "2013.05.15",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "RRN (partial)",
+            "Phone",
+            "Vehicle Number",
+            "Accident Info"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "주민번호(일부)",
+            "전화번호",
+            "차량번호",
+            "사고정보"
+        ],
+        "description": "Contractor system hacked in 2011. 158K records exposed. Discovered 2 years later. 'Institutional warning' and CEO warning.",
+        "description_ko": "2011년 위탁업체 시스템 해킹. 15만 8천 건 노출. 2년 후 발견. 기관주의 및 CEO 경고.",
+        "leaked_count": 158000,
+        "original_url": "https://www.hankyung.com",
+        "fine_amount": "Institutional warning + CEO warning",
+        "fine_amount_ko": "기관주의 + CEO 경고",
+        "timeline": [
+            {
+                "date": "2011.05",
+                "title": "Contractor system hacked",
+                "title_ko": "위탁업체 시스템 해킹"
+            },
+            {
+                "date": "2013.05",
+                "title": "Breach discovered (2 years later)",
+                "title_ko": "유출 발견 (2년 후)"
+            },
+            {
+                "date": "2013.07",
+                "title": "FSS disciplinary action",
+                "title_ko": "금감원 징계"
+            }
+        ],
+        "related_links": [
+            {
+                "type": "news",
+                "title": "한화손보 15만명 고객정보 유출",
+                "title_ko": "한화손보 15만명 고객정보 유출",
+                "url": "https://www.hankyung.com",
+                "source": "한국경제"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "company_name": "Meritz Fire Insurance",
+        "company_name_ko": "메리츠화재",
+        "incident_date": "2013.05.15",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "Phone",
+            "Job",
+            "Address",
+            "Product Name",
+            "Coverage Amount"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "전화번호",
+            "직업",
+            "주소",
+            "상품명",
+            "담보금액"
+        ],
+        "description": "Employee leaked 164K customer records to 2 agencies. 'Institutional warning' and 6M won fine.",
+        "description_ko": "직원이 16만 4천건 고객정보를 대리점 2곳에 유출. 기관주의 및 600만원 과태료.",
+        "leaked_count": 164000,
+        "original_url": "https://www.hani.co.kr",
+        "fine_amount": "₩6M fine",
+        "fine_amount_ko": "600만원 과태료",
+        "timeline": [
+            {
+                "date": "2013.05",
+                "title": "Employee leaked to agencies",
+                "title_ko": "직원이 대리점에 유출"
+            },
+            {
+                "date": "2013.05",
+                "title": "Reported to FSS",
+                "title_ko": "금감원 보고"
+            },
+            {
+                "date": "2013.08",
+                "title": "Criminal complaint filed",
+                "title_ko": "형사고소"
+            }
+        ],
+        "related_links": [
+            {
+                "type": "news",
+                "title": "메리츠화재 16만건 고객정보 유출",
+                "title_ko": "메리츠화재 16만건 고객정보 유출",
+                "url": "https://www.hani.co.kr",
+                "source": "한겨레"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "company_name": "HomeTax (NTS)",
+        "company_name_ko": "홈택스 (국세청)",
+        "incident_date": "2022.01.15",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "RRN",
+            "Income",
+            "Card Usage",
+            "Medical Expenses",
+            "Donations"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "주민번호",
+            "소득정보",
+            "카드사용액",
+            "의료비",
+            "기부금"
+        ],
+        "description": "Year-end tax settlement system bug exposed 821 people's data for 4 days. RRN + Name = Full access to financial info.",
+        "description_ko": "연말정산 간소화 서비스 오류로 821명 정보 4일간 노출. 주민번호+이름만 알면 금융정보 조회 가능.",
+        "leaked_count": 821,
+        "original_url": "https://www.boannews.com",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [
+            {
+                "date": "2022.01.15",
+                "title": "Bug discovered",
+                "title_ko": "버그 발견"
+            },
+            {
+                "date": "2022.01.18",
+                "title": "NTS apology & notification",
+                "title_ko": "국세청 사과 및 통지"
+            }
+        ],
+        "related_links": [
+            {
+                "type": "video",
+                "title": "[YTN] 연말정산 개인정보 821명 유출...다른 사람 정보 조회 가능",
+                "title_ko": "[YTN] 연말정산 개인정보 821명 유출...다른 사람 정보 조회 가능",
+                "url": "https://www.youtube.com/watch?v=nHWsIzLgLmw",
+                "source": "YTN"
+            },
+            {
+                "type": "video",
+                "title": "[MBC] 홈택스서 타인 정보 조회 가능...민간 인증서 허점",
+                "title_ko": "[MBC] 홈택스서 타인 정보 조회 가능...민간 인증서 허점",
+                "url": "https://www.youtube.com/watch?v=QwLHjgVoT_c",
+                "source": "MBC뉴스"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "company_name": "NHIS",
+        "company_name_ko": "국민건강보험공단",
+        "incident_date": "2018.06.20",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "RRN",
+            "Medical Info",
+            "Insurance Info"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "주민번호",
+            "의료정보",
+            "보험정보"
+        ],
+        "description": "Public agency data breach. Medical claim records of insured people exposed.",
+        "description_ko": "공공기관 정보 유출. 피보험자 의료청구 기록 노출.",
+        "leaked_count": 0,
+        "original_url": "https://www.ddaily.co.kr",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 35,
+        "company_name": "Daegu City",
+        "company_name_ko": "대구시",
+        "incident_date": "2019.04.15",
+        "severity": "info",
+        "leaked_items": [
+            "Name",
+            "RRN",
+            "Address"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "주민번호",
+            "주소"
+        ],
+        "description": "Local government misconfiguration exposed citizen records.",
+        "description_ko": "지자체 설정 오류로 시민 정보 노출.",
+        "leaked_count": 8500,
+        "original_url": "https://www.yna.co.kr",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 36,
+        "company_name": "GPKI (Govt Certificates)",
+        "company_name_ko": "행정전자서명 인증서",
+        "incident_date": "2025.07.15",
+        "severity": "critical",
+        "leaked_items": [
+            "Digital Certificates",
+            "Admin Credentials"
+        ],
+        "leaked_items_ko": [
+            "전자서명 인증서",
+            "관리자 정보"
+        ],
+        "description": "650 government officials' digital certificates leaked (2022-2025). Remote work security failure.",
+        "description_ko": "공무원 650명 행정전자서명 인증서 유출 (2022-2025). 원격근무 보안 실패.",
+        "leaked_count": 650,
+        "original_url": "https://www.securityfact.co.kr",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [
+            {
+                "date": "2022.09",
+                "title": "Breach started",
+                "title_ko": "유출 시작"
+            },
+            {
+                "date": "2025.07",
+                "title": "Discovered and disclosed",
+                "title_ko": "발견 및 공개"
+            }
+        ],
+        "related_links": []
+    },
+    {
+        "id": 37,
+        "company_name": "Korail (2015)",
+        "company_name_ko": "한국철도공사 (2015)",
+        "incident_date": "2015.06.15",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "Phone",
+            "Email",
+            "RRN"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "전화번호",
+            "이메일",
+            "주민번호"
+        ],
+        "description": "Rail ticketing system breach. Customer membership data exposed.",
+        "description_ko": "열차 예매 시스템 침해. 회원 정보 노출.",
+        "leaked_count": 210000,
+        "original_url": "https://www.boannews.com",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 38,
+        "company_name": "Aladin Books",
+        "company_name_ko": "알라딘",
+        "incident_date": "2018.09.20",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "ID",
+            "Phone",
+            "Email"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "아이디",
+            "전화번호",
+            "이메일"
+        ],
+        "description": "Online bookstore data breach. Used book marketplace customer data.",
+        "description_ko": "온라인 서점 개인정보 유출. 중고서점 고객 정보.",
+        "leaked_count": 450000,
+        "original_url": "https://www.boannews.com",
+        "fine_amount": "₩37M",
+        "fine_amount_ko": "3,700만원",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 39,
+        "company_name": "Hana Bank",
+        "company_name_ko": "하나은행",
+        "incident_date": "2016.04.20",
+        "severity": "warning",
+        "leaked_items": [
+            "Name",
+            "Account Number",
+            "Phone"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "계좌번호",
+            "전화번호"
+        ],
+        "description": "Customer account information exposed via system vulnerability.",
+        "description_ko": "시스템 취약점으로 고객 계좌정보 노출.",
+        "leaked_count": 85000,
+        "original_url": "https://www.hankyung.com",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [],
+        "related_links": []
+    },
+    {
+        "id": 40,
+        "company_name": "Bithumb",
+        "company_name_ko": "빗썸",
+        "incident_date": "2017.06.29",
+        "severity": "critical",
+        "leaked_items": [
+            "Name",
+            "Phone",
+            "Email",
+            "Cryptocurrency"
+        ],
+        "leaked_items_ko": [
+            "이름",
+            "전화번호",
+            "이메일",
+            "암호화폐"
+        ],
+        "description": "Cryptocurrency exchange breach. 36K accounts. $7M stolen. Later ₩30M stolen in 2018.",
+        "description_ko": "암호화폐 거래소 해킹. 3만 6천 계정. 70억원 도난. 이후 2018년 300억원 추가 도난.",
+        "leaked_count": 36000,
+        "original_url": "https://www.reuters.com",
+        "fine_amount": "N/A",
+        "fine_amount_ko": "해당없음",
+        "timeline": [
+            {
+                "date": "2017.06.29",
+                "title": "First hack",
+                "title_ko": "첫 해킹"
+            },
+            {
+                "date": "2018.06",
+                "title": "Second hack ₩30B",
+                "title_ko": "2차 해킹 300억원"
+            }
+        ],
+        "related_links": []
+    }
+]

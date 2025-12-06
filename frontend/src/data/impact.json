@@ -1,0 +1,133 @@
+{
+    "population": {
+        "value": 51128530,
+        "year": 2025,
+        "source": "행정안전부"
+    },
+    "total_leaked_records": {
+        "value": 300000000,
+        "description": "10 years cumulative",
+        "description_ko": "10년간 누적 유출 건수"
+    },
+    "per_capita_leaks": {
+        "value": 6.5,
+        "description": "Average times each citizen's data was leaked",
+        "description_ko": "국민 1인당 평균 개인정보 유출 횟수"
+    },
+    "shocking_stats": [
+        {
+            "title": "Your data has been leaked 6-7 times",
+            "title_ko": "당신의 개인정보는 이미 6~7번 유출됐습니다",
+            "value": "6-7x",
+            "description": "Average per capita leak count over 10 years",
+            "description_ko": "10년간 국민 1인당 평균 유출 횟수"
+        },
+        {
+            "title": "300 million records leaked",
+            "title_ko": "3억 건 유출",
+            "value": "300M+",
+            "description": "Total records leaked in 10 years",
+            "description_ko": "10년간 총 유출 건수"
+        },
+        {
+            "title": "Half the population in 8 months",
+            "title_ko": "8개월 만에 인구 절반",
+            "value": "3,038만",
+            "description": "Records leaked Jan-Aug 2025 alone",
+            "description_ko": "2025년 1-8월 유출 건수"
+        },
+        {
+            "title": "National population covered 6x over",
+            "title_ko": "전 국민 정보 6번 돌았다",
+            "value": "6x",
+            "description": "300M records ÷ 51M population",
+            "description_ko": "3억 건 ÷ 5,100만 인구"
+        },
+        {
+            "title": "Every leak, they said 'No data leaked'",
+            "title_ko": "매번 '유출 없다'고 했습니다",
+            "value": "100%",
+            "description": "Companies initially denied in all major cases",
+            "description_ko": "모든 대형 사고에서 기업들은 처음에 부인"
+        }
+    ],
+    "yearly_leaks": [
+        {
+            "year": 2011,
+            "count": 48000000,
+            "major_incidents": [
+                "Nate/Cyworld 35M",
+                "Nexon 13M"
+            ]
+        },
+        {
+            "year": 2012,
+            "count": 8700000,
+            "major_incidents": [
+                "KT 8.7M"
+            ]
+        },
+        {
+            "year": 2014,
+            "count": 104000000,
+            "major_incidents": [
+                "Card3 104M"
+            ]
+        },
+        {
+            "year": 2016,
+            "count": 10300000,
+            "major_incidents": [
+                "Interpark 10.3M"
+            ]
+        },
+        {
+            "year": 2023,
+            "count": 5300000,
+            "major_incidents": [
+                "LG Uplus 297K",
+                "Golfzon 2.21M"
+            ]
+        },
+        {
+            "year": 2024,
+            "count": 13770000,
+            "major_incidents": [
+                "KakaoTalk",
+                "Kakao Pay 40M"
+            ]
+        },
+        {
+            "year": 2025,
+            "count": 74750000,
+            "major_incidents": [
+                "SKT 27M",
+                "Coupang 33.7M",
+                "Netmarble 6.11M"
+            ]
+        }
+    ],
+    "national_assembly_hearings": [
+        {
+            "date": "2025.12.02",
+            "title": "Coupang Emergency Inquiry",
+            "title_ko": "쿠팡 긴급 현안 질의",
+            "committee": "과학기술정보방송통신위원회",
+            "youtube": "https://www.youtube.com/watch?v=coupang_na_1202"
+        },
+        {
+            "date": "2025.12.17",
+            "title": "Coupang Full Hearing (Scheduled)",
+            "title_ko": "쿠팡 청문회 (예정)",
+            "committee": "과학기술정보방송통신위원회",
+            "youtube": null
+        },
+        {
+            "date": "2025.04.28",
+            "title": "SK Telecom Breach Inquiry",
+            "title_ko": "SK텔레콤 해킹 사태 질의",
+            "committee": "과학기술정보방송통신위원회",
+            "youtube": "https://www.youtube.com/watch?v=skt_na_0428"
+        }
+    ]
+}
