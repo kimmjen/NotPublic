@@ -53,7 +53,7 @@ export const LawsTimeline: React.FC<LawsTimelineProps> = ({ laws }) => {
                     </p>
                 </div>
                 <div className="text-xs text-slate-500">
-                    2011 - 2025
+                    2011 - 2026
                 </div>
             </div>
 

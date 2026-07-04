@@ -142,6 +142,71 @@ export default function AdminPage() {
         setEditForm({ ...editForm, related_links: links });
     };
 
+
+    // Incoming Data Logic
+    const [pendingIncidents, setPendingIncidents] = useState<Incident[]>([]);
+
+    React.useEffect(() => {
+        fetchPending();
+    }, []);
+
+    const fetchPending = async () => {
+        try {
+            const res = await fetch('/api/admin/pending');
+            const data = await res.json();
+            if (data.success) {
+                setPendingIncidents(data.pendingIncidents);
+            }
+        } catch (e) {
+            console.error(e);
+        }
+    };
+
+    const handleApprove = async (incident: Incident) => {
+        if (!confirm('이 데이터를 실제 서비스에 반영하시겠습니까?')) return;
+
+        try {
+            const res = await fetch('/api/admin/approve', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ incident })
+            });
+            const data = await res.json();
+
+            if (data.success) {
+                alert(`반영되었습니다! (ID: ${data.newId})`);
+                await fetchPending(); // Refresh pending list
+                window.location.reload(); // Refresh main list
+            } else {
+                alert('오류: ' + data.error);
+            }
+        } catch (e) {
+            alert('승인 중 오류 발생');
+        }
+    };
+
+    const handleReject = async (id: number) => {
+        if (!confirm('정말 이 데이터를 삭제하시겠습니까?')) return;
+
+        try {
+            const res = await fetch('/api/admin/reject', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id })
+            });
+            const data = await res.json();
+
+            if (data.success) {
+                // Optimistic UI update
+                setPendingIncidents(pendingIncidents.filter(i => i.id !== id));
+            } else {
+                alert('오류: ' + data.error);
+            }
+        } catch (e) {
+            alert('거절 중 오류 발생');
+        }
+    };
+
     return (
         <div className="min-h-screen bg-slate-900 text-white">
             {/* Header */}
@@ -171,12 +236,114 @@ export default function AdminPage() {
                             >
                                 📋 JSON 복사
                             </button>
+                            <button
+                                onClick={async () => {
+                                    if (confirm('데이터 업데이트를 시작하시겠습니까? (시간이 소요될 수 있습니다)')) {
+                                        try {
+                                            const btn = document.getElementById('update-btn');
+                                            if (btn) {
+                                                btn.innerText = '⏳ 업데이트 중...';
+                                                (btn as HTMLButtonElement).disabled = true;
+                                            }
+
+                                            const res = await fetch('/api/crawl', { method: 'POST' });
+                                            const data = await res.json();
+
+                                            if (data.success) {
+                                                alert('업데이트 완료! 페이지를 새로고침합니다.');
+                                                window.location.reload();
+                                            } else {
+                                                alert('업데이트 실패: ' + data.error);
+                                            }
+                                        } catch (e) {
+                                            alert('오류가 발생했습니다.');
+                                        } finally {
+                                            const btn = document.getElementById('update-btn');
+                                            if (btn) {
+                                                btn.innerText = '🔄 데이터 업데이트';
+                                                (btn as HTMLButtonElement).disabled = false;
+                                            }
+                                        }
+                                    }
+                                }}
+                                id="update-btn"
+                                className="px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg text-sm font-medium transition disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
+                                🔄 데이터 업데이트
+                            </button>
                         </div>
                     </div>
                 </div>
             </header>
 
+
             <div className="container mx-auto px-6 py-8">
+
+                {/* Pending Incidents Section (If any) */}
+                {pendingIncidents.length > 0 && (
+                    <div className="mb-12 bg-indigo-900/20 border border-indigo-500/50 rounded-xl overflow-hidden">
+                        <div className="bg-indigo-900/50 px-6 py-4 flex justify-between items-center">
+                            <div>
+                                <h2 className="text-lg font-bold text-indigo-100">📥 새로 수집된 데이터 (검토 필요)</h2>
+                                <p className="text-indigo-300 text-sm">크롤러가 수집한 데이터를 검토 후 승인하여 반영하세요.</p>
+                            </div>
+                            <span className="bg-indigo-500 text-white px-3 py-1 rounded-full text-xs font-bold">
+                                {pendingIncidents.length}건 대기중
+                            </span>
+                        </div>
+                        <div className="divide-y divide-indigo-800/50">
+                            {pendingIncidents.map((incident) => (
+                                <div key={incident.id} className="p-6 flex flex-col lg:flex-row gap-6 hover:bg-white/5 transition">
+                                    <div className="flex-1 space-y-2">
+                                        <div className="flex items-center gap-2">
+                                            <span className="text-xs px-2 py-1 bg-slate-700 rounded text-slate-300">
+                                                {incident.source}
+                                            </span>
+                                            <span className="text-sm text-indigo-300 font-mono">
+                                                {incident.incident_date}
+                                            </span>
+                                        </div>
+                                        <h3 className="text-xl font-bold text-white">
+                                            {incident.company_name}
+                                            {incident.leaked_count > 0 && (
+                                                <span className="ml-2 text-sm font-normal text-red-300">
+                                                    ({new Intl.NumberFormat('en-US', { notation: "compact" }).format(incident.leaked_count)})
+                                                </span>
+                                            )}
+                                        </h3>
+                                        <p className="text-slate-400 text-sm line-clamp-2">
+                                            {incident.description}
+                                        </p>
+                                        <a href={incident.original_url} target="_blank" className="text-xs text-blue-400 hover:underline">
+                                            🔗 원문 보기
+                                        </a>
+                                    </div>
+                                    <div className="flex lg:flex-col gap-2 justify-center min-w-[140px]">
+                                        <button
+                                            onClick={() => handleApprove(incident)}
+                                            className="px-4 py-2 bg-green-600 hover:bg-green-500 text-white rounded-lg text-sm font-bold transition flex items-center justify-center gap-2"
+                                        >
+                                            ✅ 승인 (반영)
+                                        </button>
+                                        <button
+                                            onClick={() => handleEdit(incident)}
+                                            className="px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded-lg text-sm transition flex items-center justify-center gap-2"
+                                        >
+                                            ✏️ 수정 후 승인
+                                        </button>
+                                        <button
+                                            onClick={() => handleReject(incident.id)}
+                                            className="px-4 py-2 bg-red-900/50 hover:bg-red-900 text-red-200 border border-red-800 rounded-lg text-sm transition flex items-center justify-center gap-2"
+                                        >
+                                            🗑️ 거절 (삭제)
+                                        </button>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
+
                 {/* Edit Panel - Now at top when editing */}
                 {isEditing && editForm && (
                     <div className="mb-8 bg-slate-800 rounded-xl border border-slate-700 overflow-hidden">
@@ -352,7 +519,7 @@ export default function AdminPage() {
                                                         type="text"
                                                         value={event.date}
                                                         onChange={(e) => updateTimelineEvent(idx, 'date', e.target.value)}
-                                                        placeholder="2024.01.15"
+                                                        placeholder="2026.01.15"
                                                         className="w-full px-2 py-1.5 bg-slate-600 border border-slate-500 rounded text-sm text-white"
                                                     />
                                                 </div>

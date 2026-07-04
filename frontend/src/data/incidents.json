@@ -1589,5 +1589,65 @@
             }
         ],
         "related_links": []
+    },
+    {
+        "id": 41,
+        "company_name": "KT Corp.",
+        "company_name_ko": "KT (2025-2026)",
+        "incident_date": "2025.12.30",
+        "severity": "info",
+        "leaked_items": [
+            "Personal Info"
+        ],
+        "leaked_items_ko": [
+            "IMSI",
+            "IMEI",
+            "휴대전화번호"
+        ],
+        "description": "KT Corp. CEO Kim Young-shub bows in apology. UK security firm 'Rethink Technology Research' identified the breach as a long-term state-sponsored espionage campaign targeting femtocells.",
+        "description_ko": "KT 펨토셀 해킹 및 장기간 침해 의혹. 영국 '리씽크 테크놀로지 리서치'는 이를 단순 해킹이 아닌 장기간의 국가적 사이버 스파이 행위로 분석함 (펨토셀 복제).",
+        "leaked_count": 0,
+        "original_url": "https://www.koreaherald.com/article/10646231",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [],
+        "related_links": [
+            {
+                "type": "news",
+                "title": "KT Corp. CEO Kim Young-shub bows in apology over the recent data breach incident during a press briefing in Seoul on Tuesday. (Yonhap)",
+                "url": "https://www.koreaherald.com/article/10646231",
+                "source": "Korea Herald"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "company_name": "Shinhan Card",
+        "company_name_ko": "신한카드",
+        "incident_date": "2025.12.23",
+        "severity": "info",
+        "leaked_items": [
+            "Credit Card"
+        ],
+        "leaked_items_ko": [
+            "휴대전화번호",
+            "생년월일",
+            "성별"
+        ],
+        "description": "Shinhan Card reports internal leak of 190,000 customers' data via employee misconduct. Internal systems were screenshotted/transcribed.",
+        "description_ko": "19만명 가맹점주 정보 유출. 내부 직원이 불법적으로 정보를 유출하여 영업에 활용함. 2025년 12월 23일 발표.",
+        "leaked_count": 190000,
+        "original_url": "https://www.koreaherald.com/article/10642506",
+        "fine_amount": "TBD",
+        "fine_amount_ko": "미정",
+        "timeline": [],
+        "related_links": [
+            {
+                "type": "news",
+                "title": "Shinhan Card reports internal leak of 190,000 customers' data",
+                "url": "https://www.koreaherald.com/article/10642506",
+                "source": "Korea Herald"
+            }
+        ]
     }
 ]

@@ -53,7 +53,7 @@ export const EditorialLayout: React.FC<EditorialLayoutProps> = ({ incidents, imp
                                 : 'Breach Disaster Report'}
                         </h2>
                         <div className="mt-4 text-slate-500 text-sm">
-                            2011 - 2025 | {sortedIncidents.length} {locale === 'ko' ? '건의 사건' : 'Incidents'}
+                            2011 - 2026 | {sortedIncidents.length} {locale === 'ko' ? '건의 사건' : 'Incidents'}
                         </div>
                     </div>
                 </div>
@@ -133,8 +133,8 @@ export const EditorialLayout: React.FC<EditorialLayoutProps> = ({ incidents, imp
                                 key={incident.id}
                                 onClick={() => setSelectedIncident(incident)}
                                 className={`bg-white border rounded-lg p-4 cursor-pointer transition-all hover:shadow-md ${selectedIncident?.id === incident.id
-                                        ? 'border-red-500 ring-2 ring-red-500/20 shadow-lg'
-                                        : 'border-slate-200 hover:border-slate-300'
+                                    ? 'border-red-500 ring-2 ring-red-500/20 shadow-lg'
+                                    : 'border-slate-200 hover:border-slate-300'
                                     }`}
                             >
                                 <div className="flex justify-between items-start mb-2">
